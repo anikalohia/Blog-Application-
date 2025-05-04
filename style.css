@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+.jumbotron{
+    height: 100vh;
+    background-color:rgb(104, 87, 82);
+    border-radius: 0;
+    margin-bottom:0;
+}
+
+.navbar{
+    height: 100px;
+    background-color: rgb(104, 87, 82);
+}
+.nav-link{
+    color: rgb(253, 247, 244);
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: rgb(253, 247, 244);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.londrina-shadow-regular {
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    color: rgb(253, 247, 244);
+  }
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(253, 247, 244);
+  }
+  .btn1{
+    background-color: rgb(142, 180, 134);
+    color: rgb(253, 247, 244);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  .btn1:hover{
+    background-color:rgb(60, 159, 40) ;
+    
+  }
+  .form-control{
+    font-size: 20px;
+  }
+  .element{
+    font-size: 20px;
+  }
+.back{
+    
+    background-color: rgb(214, 192, 179);
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 20px  rgb(104, 87, 82) solid;
+    padding-top: 20px;
+    
+}
+
+.form-control{
+    color:rgb(104, 87, 82);
+    
+}
+.submit{
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.box:hover{ 
+    border-radius: 20px;
+    background-color: rgb(142, 180, 134);
+    
+
+}
+.social_icon,.menu{
+  list-style: none;
+  /* margin-right: 200px; */
+  /* margin-left:  20px ; */
+  /* margin: auto; */;
+  /* align-items: center; */
+  display: flex;
+ justify-content: center;
+ margin-top: auto; 
+ padding: 0px;
+}
+.social_icon{
+  padding-top: 50px;
+  
+}
+footer{
+  background-color:rgba(29, 135, 5, 0.573) ;
+  height: 30vh;
+  border-top: 2px white double;
+  /* rgb(104, 87, 82) */
+ 
+}
+.color_icon{
+  color: white;
+  margin: 20px;
+
+}
+.box_over{
+  /* visibility: hidden; */
+  display: none;
+  border: 2px solid brown;
+  /* z-index: ; */
+}
+.container{
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  width: 800px;
+  padding: 50px;
+  
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: 2px solid rgb(72, 1, 1)
+}
+.full{
+  background-color: rgb(104, 87, 82);
+  padding: 80px;
+}
+#newPostBtn{
+  background-color: rgb(53, 90, 183);
+  border-radius: 5px;
+  color: beige;
+  padding: 4px;
+
+}
+#newPostBtn:hover{
+  background-color: rgb(30, 67, 142);
+  text-decoration: none;
+}
+.edit{
+  background-color: rgb(61, 105, 52);
+  padding: 7px 10px;
+  
+  border-radius: 5px;
+  color: beige;
+  font-size: 15px;
+}
+.edit:hover{
+  background-color: rgb(27, 59, 20);
+  text-decoration: none;
+}
+.delete{
+  background-color: rgb(152, 60, 66);
+  padding: 7px 10px;
+  
+  border-radius: 5px;
+  color: beige;
+  font-size: 15px;
+}
+.delete:hover{
+  background-color: rgb(111, 32, 32);
+  text-decoration: none;
+}
+.Contact-contain{
+ 
+  background-color: rgb(104, 87, 82);
+  padding: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  
+}
+.contact{
+  padding: 50px;
+  border-radius: 8px;
+  border: 1px black solid;
+
+  font-size: 20px;
+  background-color:rgb(214, 192, 179) ;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+.foot-btn{
+  padding: 4px;
+  color: antiquewhite;
+}
+.foot-btn:hover{
+  color: blue;
+  text-decoration: none;
+}

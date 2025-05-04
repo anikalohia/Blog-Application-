@@ -1,0 +1,69 @@
+<%-include("partials/header.ejs")%>
+
+
+    <%if(locals.post){%>
+        <form action="/edit/<%=post.id%>" method="post">
+   
+            <div class="back">
+        <div class="form-group ">
+            <label for="exampleFormControlInput1" class="element">Title:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" value="<%=post.title%>" name="title" >
+        </div>
+        <div class="form-group ">
+            <label for="exampleFormControlInput1" class="element">Content: </label>
+            <textarea  class="form-control" style=" height:400px" id="exampleFormControlInput1"  name="content" ><%=post.content%></textarea>
+        </div>
+       
+        <div class="form-group ">
+            <label for="exampleFormControlInput1" class="element">Author:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="author" value="<%=post.author %>" >
+        </div>
+        
+    <div class="btn">
+        <button type="submit" class="btn btn1 submit">
+            Update
+    
+          
+        </button>
+        </div>
+        </div>
+    </form>
+        
+        
+
+    <%}else{%>
+        <form action="/newBlog" method="post">
+   
+            <div class="back">
+        
+    <div class="form-group ">
+        <label for="exampleFormControlInput1" class="element">Title:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Travelism" name="title"required >
+    </div>
+    <div class="form-group ">
+        <label for="exampleFormControlInput1" class="element">Content: </label>
+        <textarea  class="form-control" style=" height:400px" id="exampleFormControlInput1" placeholder="Lorem Ipsum---" name="content" required></textarea>
+    </div>
+   
+    <div class="form-group ">
+        <label for="exampleFormControlInput1" class="element">Author:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Harry Potter" name="author" required>
+    </div>
+    
+    <div class="btn">
+        <button type="submit" class="btn btn1 submit">
+            Submit
+    
+          
+        </button>
+        </div>
+        </div>
+    </form>
+    
+
+    <%}%>
+   
+    
+    
+<%- include("partials/footer.ejs")%>
+
